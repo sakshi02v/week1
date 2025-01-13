@@ -1,0 +1,21 @@
+import java.util.*;
+public class NaturalNumberSum{
+    public static void main(String args[]){
+	
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Enter number:");
+	int number=sc.nextInt();
+	int sum=number*(number+1)/2;
+	
+	if (number>1)
+	System.out.println("The sum of natural numbers is:"+sum);
+	
+	else 
+	System.out.println("The number is not a natural number");
+	}
+}	
+	
+
+	
+	
